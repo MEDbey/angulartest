@@ -3,9 +3,9 @@
     <div class="col s12 m4">
       <div class="card blue-grey darken-1">
         <div class="card-content white-text">
-          <span class="card-title">Période 1</span>
-          <p>I am a very simple card. I am good at containing small bits of information.
-          I am convenient because I require little markup to use effectively.</p>
+          <span class="card-title">{{period1.nom}}</span>
+          <input type= "button"value="{{period1.listeDeMat[0].name}}">
+          <input type= "button"value="{{period1.listeDeMat[1].name}}">
         </div>
         <div class="card-action">
           <a href="#">nombre totale d'heures :</a>
@@ -25,17 +25,6 @@
         </div>
       </div>
     </div>
-    <div class="col s12 m4">
-      <div class="card blue-grey darken-1">
-        <div class="card-content white-text ">
-          <span class="card-title">Liste des </span>     
-          <div><app-edtmodules></app-edtmodules></div>
-        </div>
-        <div class="card-action">
-          <a href="#">This is a link</a>
-          <a href="#">This is a link</a>
-        </div>
-      </div>
-    </div>
+    <app-edttable></app-edttable>
   </div>
           

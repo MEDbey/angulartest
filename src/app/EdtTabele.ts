@@ -1,3 +1,7 @@
+import { EdtMatere } from './EdtMatere';
+import { EdtModule } from './EdtModule';
+
 export class EdtTabele {
-num : number;
+ListeDesModu : EdtModule[];
+ListedesMats : EdtMatere[];
   }
